@@ -1,0 +1,21 @@
+.game-form-wrapper{
+    width: 25rem;
+    min-height: 15rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+}
+
+.category-field-wrapper{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.category-field-wrapper .list{
+    width: 75%;
+}

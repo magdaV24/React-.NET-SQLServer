@@ -1,0 +1,16 @@
+.add-card-form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+    width: 30vw;
+}
+
+.fields-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.answer-field-wrapper{
+    display: flex;
+    gap: 0.5rem;
+}

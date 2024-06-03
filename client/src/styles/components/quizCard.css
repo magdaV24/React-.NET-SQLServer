@@ -1,0 +1,48 @@
+.quiz-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.4rem;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2px;
+    width: 37vw;
+}
+
+.answers-grid{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    min-height: 17vh;
+    height: fit-content;
+}
+
+.save-answer-button{
+    width: 100%;
+}
+
+.game-answer-wrapper{
+    height: fit-content;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.radio-wrapper{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    height: fit-content;
+    width: inherit;
+}
+
+.answer-label {
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}

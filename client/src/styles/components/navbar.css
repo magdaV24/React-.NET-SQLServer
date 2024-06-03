@@ -1,0 +1,39 @@
+.navbar-wrapper{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-name{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.auth-buttons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.auth-button{
+    width: 6rem;
+}
+
+.button-box{
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.avatar-box{
+    border-radius: 50%;
+    overflow: hidden;
+}

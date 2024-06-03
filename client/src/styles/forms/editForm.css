@@ -1,0 +1,66 @@
+.edit-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 60vw;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.edit-field-wrapper{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.field-name{
+    width: 20%;
+}
+
+.edit-field-wrapper .field-form{
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+}
+
+.edit-field-wrapper .field-form .field{
+    width: 90%;
+}
+
+.answer-field-wrapper{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.answer-field-col-one{
+    display: flex;width: 100%;
+    gap: 1rem;
+    height: 100%;
+}
+
+.answer-field-col-two{
+    height: 100%;
+}
+
+.answer-field-input{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+
+.answer-field-col-one .button-box{
+    display: flex;
+    gap: 0.5;
+    align-items: center;
+}
+
+.answer-field-col-one .button-box .btn{
+    height: 3rem;
+}
